@@ -2,7 +2,7 @@ import { Client } from "square";
 import { randomUUID } from 'crypto';
 
 const { paymentsApi } = new Client({
-  accessToken: process.env.SANDBOX_TOKEN,
+  accessToken: "",
   environment: "sandbox" as any,
 });
 
@@ -14,7 +14,7 @@ export default async function handler(req:any, res:any) {
       sourceId: req.body.sourceId,
       amountMoney: {
         currency: 'USD',
-        amount: 100 as any
+        amount: 500 as any
       }
     })
     console.log(result);
