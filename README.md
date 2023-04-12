@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Square Payment Gateway with Next.js
+
+![image](https://user-images.githubusercontent.com/112578419/231397697-542cb446-46ba-4705-82b8-a76df7f96edb.png)
 
 ## Getting Started
 
